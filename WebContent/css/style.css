@@ -54,10 +54,10 @@ a {
    
 }
 
-.btn:hover {
+/*.btn:hover {
   background-color: #E04F00;
   color: #fff;
-}
+}*/
 
 .btn:focus {
   color: #fff;
