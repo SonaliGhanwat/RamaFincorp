@@ -54,10 +54,10 @@ a {
    
 }
 
-/*.btn:hover {
+.btn:hover {
   background-color: #E04F00;
   color: #fff;
-}*/
+}
 
 .btn:focus {
   color: #fff;
@@ -1158,10 +1158,30 @@ i {
 
 .downarrowright {
    border: solid black;
-    border-width: 0 2px 2px 0;
+    border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 3px;
      transform: rotate(45deg);
     -webkit-transform: rotate(-45deg);
     margin-left: 70px
+}
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: red;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;    
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
