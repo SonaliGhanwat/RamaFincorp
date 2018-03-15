@@ -269,9 +269,9 @@ a:hover {
 }
 
 /* Nav Menu Arrows */
-.sf-arrows .sf-with-ul {
+/* .sf-arrows .sf-with-ul {
   padding-right: 30px;
-}
+} */
 
 .sf-arrows .sf-with-ul:after {
   content: "\f107";
@@ -280,6 +280,7 @@ a:hover {
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
+      margin-top: 4px;
 }
 
 .sf-arrows ul .sf-with-ul:after {
@@ -1138,11 +1139,12 @@ li{
 
 .downarrow {
    border: solid white;
-    border-width: 0 2px 2px 0;
+    border-width: 0 1.5px 1.5px 0;
     display: inline-block;
     padding: 3px;
      transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+    margin-left: 7px;
 }
 i {
   border: solid white;
